@@ -19,12 +19,13 @@ function init() {
   console.log(event.key);
   const key = event.key;
   if(key === codes[index]){
-    index++
-    if(index === codes.lenght){
+    index++;
+    if(index === codes.length){
       alert("MSG");
     }else{
       index = 0;
     }
+  
   }
 
 
