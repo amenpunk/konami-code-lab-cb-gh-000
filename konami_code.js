@@ -11,6 +11,11 @@ const codes = [
   "a"
 ];
 
+const comp = [];
+
 function init() {
-  // your code here
+  const body = document.querySelector('body');
+  body.addEventListener("keydown", function (event) {
+  console.log(event);
+},false);
 }
