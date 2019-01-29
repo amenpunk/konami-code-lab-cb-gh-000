@@ -12,6 +12,7 @@ const codes = [
 ];
 
 let index = 0;
+console.log(codes.length)
 
 function init() {
   const body = document.querySelector('body');
