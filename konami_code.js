@@ -12,12 +12,8 @@ const codes = [
 ];
 
 let index = 0;
-console.log(codes.length)
 
-function init() {
-  const body = document.querySelector('body');
-  body.addEventListener("keydown", function (event) {
-  console.log(event.key);
+function onKeyDownHandler(e){
   const key = event.key;
   if(key === codes[index]){
     index++;
@@ -26,9 +22,16 @@ function init() {
       alert("Hurray!");
     }else{
       index = 0;
-    }
-
   }
+}
+
+
+function init() {
+  const body = document.querySelector('body');
+  body.addEventListener("keydown", function (event) {
+    console.log(e.key)
+    onKeyDownHandler(e);
+  
 
 
   });
