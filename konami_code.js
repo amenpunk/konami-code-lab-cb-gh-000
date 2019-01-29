@@ -18,9 +18,9 @@ function init() {
   body.addEventListener("keydown", function (event) {
   //console.log(event.key);
   const key = event.key;
-  if(key === code[index]){
+  if(key === codes[index]){
     index++
-    if(index === code.lenght){
+    if(index === codes.lenght){
       alert("MSG")
     }else{
       index = 0;
