@@ -16,7 +16,7 @@ const comp = [];
 function init() {
   const body = document.querySelector('body');
   key = body.addEventListener("keydown", function (event) {
-  console.log(event.key);
+  console.log(event);
   },false);
 
 
