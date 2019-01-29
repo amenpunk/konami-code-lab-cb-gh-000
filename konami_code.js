@@ -19,6 +19,8 @@ function init() {
   console.log(event.key);
   },false);
 
+  console.log(key);
+
 
 
 
