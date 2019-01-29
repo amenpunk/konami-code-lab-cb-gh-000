@@ -15,11 +15,12 @@ const comp = [];
 
 function init() {
   const body = document.querySelector('body');
-  key = body.addEventListener("keydown", function (event) {
+  body.addEventListener("keydown", function (event) {
   console.log(event.key);
+  key = event.key;
   },false);
 
-  console.log(key);
+
 
 
 
