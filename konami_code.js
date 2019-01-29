@@ -32,14 +32,6 @@ function init() {
     console.log(e.key)
     onKeyDownHandler(e);
 
-
-
   });
-
-
-
-
-
-
 
 }
